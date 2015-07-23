@@ -13,6 +13,7 @@ alias lsa='ls -a'
 alias c='cd'
   # git:
 alias gs='git status'
+alias gl='git log'
 alias gi='git init'
 alias gconf='git config user.name "Cory Spitzer" &&
              git config user.email coryspitzer@gmail.com'
@@ -30,3 +31,4 @@ alias rdbc='rake db:create'
 alias rdbs='rake db:seed'
 alias rdbr='rake db:reset'
 alias rdbtp='rake db:test:prepare'
+alias rdbsetup='rake db:setup'
