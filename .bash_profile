@@ -32,3 +32,5 @@ alias rdbs='rake db:seed'
 alias rdbr='rake db:reset'
 alias rdbtp='rake db:test:prepare'
 alias rdbsetup='rake db:setup'
+  # Python
+alias p3='python3'
