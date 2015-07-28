@@ -21,6 +21,7 @@ alias gconf='g config user.name "Cory Spitzer" &&
 alias gco='g checkout'
 alias gcob='gco -b'
 alias gb='g branch'
+alias gd='g diff'
 alias ga='g add .'
 alias gc='g commit -m'
 alias gca='g commit -am'
