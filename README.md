@@ -1,3 +1,9 @@
-copy .bash_profile to your home directory
+## Bash aliases for OSX
+### By Cory Spitzer
 
-run `source ~/.bash_profile`
+##### MIT License
+
+### Set Instructions:
+  * copy .bash_profile to your home directory: `curl https://raw.githubusercontent.com/CorySpitzer/workstation_config/master/.bash_profile > ~/.bash_profile`
+
+  * run `source ~/.bash_profile`
