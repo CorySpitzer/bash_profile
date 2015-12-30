@@ -7,6 +7,10 @@ export PGDATA=~/.postgres
 export EDITOR='atom -w'
 export RUBYGEMS_GEMDEPS=-
 
+# rm is dangerous, lets put things in the trash instead.
+# For example 'trash badfile'
+trash() { /bin/mv $1 ~/.local/share/Trash/files ; }
+
 # Personal aliases:
 alias l='ls'
 alias lsa='l -a'
